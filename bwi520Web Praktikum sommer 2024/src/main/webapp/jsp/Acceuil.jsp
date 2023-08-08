@@ -5,6 +5,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+
 <meta charset="ISO-8859-1">
 <title>Kmer-Delices</title>
 
@@ -50,11 +51,11 @@
 	</header>
 
 
-	<h2 class="h2acc">Ein kulinarisches Abenteuer</h2>
+	<h2 class="h2acc">Ein kulinarisches Abenteuer.</h2>
 	<br>
 	<br>
 	<br>
-	<p class="pacc">entdencken Sie etwas anders mit kamerunischem Essen</p>
+	<p class="pacc">entdencken Sie etwas anders mit kamerunischem Essen.</p>
 	<main>
 	
 	
