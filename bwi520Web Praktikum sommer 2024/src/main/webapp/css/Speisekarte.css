@@ -1,0 +1,48 @@
+@charset "ISO-8859-1";
+.menu-item {
+      width: calc(33.33% - 30px);
+         padding: 20px;
+      margin-bottom:20px;
+      text-align: center;
+     
+    }
+    .menu-item:hover{
+    transform: translateY(-3.5px) scale(1.05);
+    }
+    .menu-item img {
+      width: 100%;
+      height: 88%;
+      object-fit: cover;
+      margin-bottom: 20px;
+      
+    }
+.menu {
+	padding-left:10%;
+	padding-right:10%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content:space-around;
+      align-content: start;
+}
+
+.menu-item a{
+	text-decoration: none;
+}
+h1{
+	
+	position: vertical;
+	text-align: left;
+	height: 300px;
+	padding: 10% 0;
+	animation-delay: 250ms;
+	
+	
+}
+.bg{
+	background-image: url("../img/back menu.jpg");
+	background-repeat: no-repeat;
+       background-size: cover;
+	
+}
+  
+  

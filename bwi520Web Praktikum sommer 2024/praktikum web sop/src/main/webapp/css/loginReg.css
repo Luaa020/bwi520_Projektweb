@@ -1,0 +1,43 @@
+@charset "ISO-8859-1";
+
+body {
+  background-image: url("../img/bg1.webp"), url("../img/bg2.jpg"), url("../img/bg3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-blend-mode: multiply;
+  background-origin: border-box;
+  background-clip: content-box, padding-box;
+  animation: slide 10s infinite;
+}
+
+ @keyframes slide {
+      0% {
+        background-image: url(../img/bg1.webp);
+      }
+      33.33% {
+        background-image: url(../img/bg2.jpg);
+      }
+      66.66% {
+        background-image: url(../img/bg3.jpg);
+      }
+      100% {
+        background-image: url(../img/bg1.webp);
+      }
+    }
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+  height: 100vh;
+}
+
+form {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #333;
+  text-align: center;
+}

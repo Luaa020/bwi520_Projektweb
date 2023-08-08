@@ -1,0 +1,209 @@
+@charset "ISO-8859-1";@charset "ISO-8859-1";
+ 
+       *{
+      
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+        scroll-behavior: smooth;
+      }
+
+body{
+	background-image:url("../img/back resto2.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       z-index: -1;
+       
+}
+
+   .pacc {
+   
+    font-weight: 100;
+    color:maroon;
+    text-align: center;
+  }
+.h2acc{
+font-weight: bold;
+font-size: 38px;
+    color:black;
+      text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px white;
+    text-align: center;	
+}
+   header {
+   
+    position: relative;
+    top:0%;
+    left:0%;
+    padding:20px;
+    width:100%;
+    
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    transition:0.5s;
+  }
+
+   .logo{
+   color:black;
+   font-weight: bold;
+   font-size : 2em;
+   text-decoration: none;
+   
+   
+   }
+   .logoimg{
+   
+   width:100px;
+   vertical-align: middle;
+   
+   
+  
+    
+   }
+   .logo span{
+   color: #FFA500;
+  
+   
+   }
+   .navbar {
+   display: flex;
+   position:relative;
+    justify-content: space-between;
+    padding: 1em;
+    
+   
+   }
+   
+   
+    
+  
+   .navbar li{
+   list-style: none;
+    text-decoration: none;
+    margin-right: 1em;
+    color:#ffffff;
+   }
+   
+   .navbar a{
+   Text-decoration:none;
+   margin-left: 30px;
+   font-weight: 700;
+   color: #ffffff;
+   }
+   
+   .btn-reserve{
+    padding: 20px 30px;
+    background: #EE82EE;;
+    margin-top: -10px;
+    text-transform: uppercase;
+    border-radius: 2em;
+   }
+
+   .btn.reserve:hover{
+   background: #EE82EE;
+   transition:case-out;
+   }
+   header.navbar li a:hover{
+   color: #EE82EE;
+   border-bottom: #EE82EE;
+   }
+   
+   section{
+   position: relative;
+   vertical-align: middle;
+   text-align: center;
+   padding-top: 15%;
+   
+  }
+  .menu-item {
+      width: calc(33.33% - 20px);
+   background-color: white;
+      padding: 20px;
+      margin-bottom:20px;
+      text-align: center;
+    }
+    .menu-item img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+.menu {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content:space-around;
+}
+
+																																													
+
+.footer {
+  background-color: #f7f7f7;
+ 
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #555;
+  flex-direction: column;
+  bottom: 0%;
+  margin-top:20px;
+  width: 100%;
+  position: relative;
+   padding:20px;
+  
+  
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+    align-items:center;
+}
+
+.footer-hours,
+.footer-contact,
+.footer-address {
+  width: 33%;
+  padding: 0 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.footer-hours h3,
+.footer-contact h3,
+.footer-address h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer-hours p,
+.footer-contact p,
+.footer-address p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+  
+  
+  .d1{
+    width: 85%;
+    height: 1000px;
+    margin: 5% auto;
+    box-shadow: 0px 15px 10px -5px #777;
+    background-color: #EDEDED;
+    background-size: cover;
+    animation: fondu 15s ease-in-out infinite both;
+}
+
+.d1:hover{
+    animation-play-state: paused;
+   
+}
+@keyframes fondu{
+    0%{background-image: url("../img/menu1.jpg");}
+    33.33%{background-image: url("../img/menu2.jpg");}
+    66.67%{background-image: url("../img/menu3.jpg");}
+    100%{background-image: url("../img/menu4.jpg");}
+}
+  
